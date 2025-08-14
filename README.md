@@ -44,6 +44,20 @@ A modern React-based chat application with AI-powered personalities, featuring a
    ```
 
 4. **Start the development server**
+   
+   **For Windows (Command Prompt):**
+   ```cmd
+   set NODE_ENV=development
+   npx tsx server/index.ts
+   ```
+   
+   **For Windows (PowerShell):**
+   ```powershell
+   $env:NODE_ENV = "development"
+   npx tsx server/index.ts
+   ```
+   
+   **For Mac/Linux:**
    ```bash
    npm run dev
    ```
