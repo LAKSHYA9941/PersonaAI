@@ -67,7 +67,7 @@ export default function Landing() {
         <div className="space-y-4">
           <h1 
             ref={titleRef}
-            className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-neon-cyan via-neon-magenta to-neon-lime bg-clip-text text-transparent animate-glow"
+            className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-neon-cyan via-neon-magenta to-amber-400 bg-clip-text text-transparent animate-glow"
           >
             PersonaAI
           </h1>
@@ -90,7 +90,7 @@ export default function Landing() {
           <button 
             ref={buttonRef}
             onClick={handleEnterApp}
-            className="px-8 py-4 bg-gradient-to-r from-neon-cyan to-neon-magenta rounded-lg font-semibold text-black hover:from-neon-magenta hover:to-neon-lime transition-all duration-300 transform hover:scale-105 neon-glow"
+            className="px-8 py-4 bg-gradient-to-r from-neon-cyan to-neon-magenta rounded-lg font-semibold text-black hover:from-neon-magenta hover:to-cyan-600 transition-all duration-300 transform hover:scale-105 neon-glow"
           >
             Enter the Experience
           </button>

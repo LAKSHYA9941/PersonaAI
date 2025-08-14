@@ -32,7 +32,7 @@ export default function Chat() {
           <p className="text-gray-400">The requested persona could not be found.</p>
           <a 
             href="/dashboard"
-            className="mt-4 inline-block px-6 py-2 bg-gradient-to-r from-neon-cyan to-neon-magenta rounded-lg font-semibold text-black hover:from-neon-magenta hover:to-neon-lime transition-all duration-300"
+            className="mt-4 inline-block px-6 py-2 bg-gradient-to-r from-neon-cyan to-neon-magenta rounded-lg font-semibold text-black hover:from-neon-magenta hover:to-neon-lime2 transition-all duration-300"
           >
             Back to Dashboard
           </a>

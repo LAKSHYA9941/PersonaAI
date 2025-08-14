@@ -19,7 +19,7 @@ async function callOpenRouter(messages: Array<{role: string, content: string}>, 
       "X-Title": "PersonaAI Chat"
     },
     body: JSON.stringify({
-      model: "meta-llama/llama-3.1-8b-instruct:free",
+      model: "deepseek/deepseek-chat-v3-0324:free",
       messages: [
         { role: "system", content: systemPrompt },
         ...messages

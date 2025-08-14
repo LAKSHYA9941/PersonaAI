@@ -64,7 +64,7 @@ export default function Dashboard() {
   }
 
   return (
-    <div ref={containerRef} className="min-h-screen pt-16">
+    <div ref={containerRef} className="min-h-full pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-16">
           <h2 
@@ -82,8 +82,7 @@ export default function Dashboard() {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {/* Empty column for spacing */}
-          <div className="hidden md:block"></div>
+          
           
           {personas?.map((persona, index) => (
             <PersonaCard 

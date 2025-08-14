@@ -61,6 +61,8 @@ export default function PersonaCard({ persona, animationDelay = 0 }: PersonaCard
       return "bg-gradient-to-r from-neon-cyan to-blue-500";
     } else if (persona.color === "magenta") {
       return "bg-gradient-to-r from-neon-magenta to-purple-500";
+    } else if (persona.color === "orange") {
+      return "bg-gradient-to-r from-orange-400 to-red-500";
     }
     return "bg-gradient-to-r from-neon-cyan to-neon-magenta";
   };
@@ -70,6 +72,8 @@ export default function PersonaCard({ persona, animationDelay = 0 }: PersonaCard
       return "hover:border-neon-cyan";
     } else if (persona.color === "magenta") {
       return "hover:border-neon-magenta";
+    } else if (persona.color === "orange") {
+      return "hover:border-orange-400";
     }
     return "hover:border-neon-cyan";
   };
@@ -79,6 +83,8 @@ export default function PersonaCard({ persona, animationDelay = 0 }: PersonaCard
       return "text-neon-cyan";
     } else if (persona.color === "magenta") {
       return "text-neon-magenta";
+    } else if (persona.color === "orange") {
+      return "text-orange-500";
     }
     return "text-neon-cyan";
   };
@@ -128,6 +134,7 @@ export default function PersonaCard({ persona, animationDelay = 0 }: PersonaCard
           <div className="text-xs text-gray-500">
             {persona.id === "hitesh" && "Specializes in: React, Node.js, MongoDB, Express"}
             {persona.id === "piyush" && "Interests: Full Stack Dev, Dating, Life Advice"}
+            {persona.id === "lakshya" && "Interests: Full Stack Dev, Spirituality, Life , GOD"}
           </div>
         </div>
       </div>
