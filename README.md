@@ -2,6 +2,7 @@
 
 A modern React-based chat application with AI-powered personalities, featuring a cyberpunk dark neon theme and GSAP animations.
  # URL :- https://personaai-1tda.onrender.com
+https://personaai-1tda.onrender.com/chat/hitesh
 ## Features
 
 - 🎨 Dark neon theme with cyan/magenta/lime colors
