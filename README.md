@@ -1,7 +1,7 @@
 # PersonaAI Chat Application
 
 A modern React-based chat application with AI-powered personalities, featuring a cyberpunk dark neon theme and GSAP animations.
-
+ # URL :- https://personaai-1tda.onrender.com
 ## Features
 
 - 🎨 Dark neon theme with cyan/magenta/lime colors
@@ -214,3 +214,11 @@ Preferred communication style: Simple, everyday language.
 - **GSAP**: Professional animation library for smooth transitions
 - **Class Variance Authority**: Utility for creating variant-based component APIs
 - **Date-fns**: Date manipulation and formatting utilities"# PersonaAI" 
+
+
+# Some use:
+
+ # Image 1:- https://res.cloudinary.com/cloud4lakshya/image/upload/v1755240223/Screenshot_83_zq8bva.png
+ # Image 2:- https://res.cloudinary.com/cloud4lakshya/image/upload/v1755240223/Screenshot_86_blfof5.png
+ # Image 3:- https://res.cloudinary.com/cloud4lakshya/image/upload/v1755240223/Screenshot_85_znruso.png
+ # Image 4:- https://res.cloudinary.com/cloud4lakshya/image/upload/v1755240223/Screenshot_84_duxmkn.png
